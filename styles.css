@@ -1,0 +1,66 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        text-align: center;
+        justify-content: center;
+        margin: 167px auto;
+        background: linear-gradient(to bottom, #b31217, #e52d27);
+        /* animation: body 400ms ease-in-out 100ms infinite; */
+      }
+      .error-container {
+        animation: slide 0.5s ease-in-out  infinite;
+      }
+      @keyframes slide{
+        0% {opacity: 0.5;}
+        50% {opacity: 0.5;}
+        100%{opacity: 0.9;}
+      }
+      
+      h1 {
+        font-size: 120px;
+        margin: 0 auto;
+        color: white;
+      }
+      p {
+        color: white;
+        font-weight: bold;
+      }
+
+      .button-div {
+        display: flex;
+        justify-content: center;
+        padding-top: 5px;
+        gap: 15px;
+        padding: 10px;
+      }
+      .homebtn {
+        border: 1px solid white;
+        border-radius: 20px;
+        padding: 5px 20px;
+        color: red;
+        background-color: white;
+      }
+
+      .contactbtn {
+        border: 1px solid white;
+        border-radius: 20px;
+        padding: 5px 10px;
+        color: white;
+        background-color: red;
+      }
+
+      .icons-div {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        color: white;
+        padding: 20px;
+      }
+      button:hover {
+        color: blue;
+        background-color: black;
+        transition: 0.5s;
+      }
